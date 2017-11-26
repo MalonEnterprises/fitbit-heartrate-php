@@ -5,7 +5,7 @@
 	$params = array(
 		'client_id' => CLIENT_ID,
 		'redirect_uri' => CALLBACK_URL,
-		'scope' => 'heartrate', // 心拍数
+		'scope' => 'heartrate activity nutrition sleep weight', // 心拍数
 		'response_type' => 'code', // レスポンスの種類
 	);
 
